@@ -180,11 +180,11 @@
     model: thelook
     explore: order_items
     type: single_value
-    fields: [users.promo_email]
+    fields: [users.email]
     filters:
       order_items.created_date: 99 years
       users.id: ''
-    sorts: [users.promo_email]
+    sorts: [users.email]
     limit: 1
     column_limit: 50
     # query_timezone: America/Los_Angeles
