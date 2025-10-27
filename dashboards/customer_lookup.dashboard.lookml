@@ -24,7 +24,7 @@
     sorts: [users.created_month desc]
     limit: 1
     column_limit: 50
-    query_timezone: America/Los_Angeles
+    # query_timezone: America/Los_Angeles
     show_view_names: false
     show_null_labels: false
     show_row_numbers: true
@@ -49,7 +49,7 @@
     sorts: [order_items.order_count desc]
     limit: 500
     show_null_labels: false
-    user_access_filters: {}
+    # user_access_filters: {}
     hidden_fields: []
     y_axes: []
     listen:
@@ -109,7 +109,7 @@
       order_items.created_date: 99 years
     sorts: [order_items.count desc]
     limit: 500
-    query_timezone: America/Los_Angeles
+    # query_timezone: America/Los_Angeles
     value_labels: legend
     label_type: labPer
     colors: ["#64518A", "#8D7FB9", "#EA8A2F", "#F2B431", "#2DA5DE", "#57BEBE", "#7F7977",
@@ -139,7 +139,7 @@
     sorts: [users.created_month desc]
     limit: 1
     column_limit: 50
-    query_timezone: America/Los_Angeles
+    # query_timezone: America/Los_Angeles
     map: usa
     map_projection: ''
     show_view_names: true
@@ -187,7 +187,7 @@
     sorts: [users.promo_email]
     limit: 1
     column_limit: 50
-    query_timezone: America/Los_Angeles
+    # query_timezone: America/Los_Angeles
     custom_color_enabled: true
     show_single_value_title: false
     show_comparison: false

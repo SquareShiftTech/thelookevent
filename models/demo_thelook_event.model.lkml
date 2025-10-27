@@ -5,6 +5,7 @@ include: "/views/**/*.view" # include all the views
 include: "/gen_ai/**/*.view" # include all the views
 include: "/dashboards/*.dashboard.lookml" # include all the views
 
+
 ############ Model Configuration #############
 
 # datagroup: ecommerce_etl {
@@ -76,6 +77,7 @@ explore: order_items {
   join: discounts {
     view_label: "Discounts"
     type: inner
+    relationship: many_to_one
     sql_on: ${products.id} = ${discounts.product_id} ;;
   }
 
